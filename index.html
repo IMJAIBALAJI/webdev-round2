@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Fest 2025: Web Development Round 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #dc3545;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #dc3545;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .instructions {
+            margin: 20px 0;
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 5px solid #ffc107;
+            border-radius: 5px;
+        }
+
+        .instructions h3 {
+            color: #ffc107;
+            margin-bottom: 10px;
+        }
+
+        .question {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff3f3;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .question:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .question h3 {
+            color: #b02331;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .question p, .question ul {
+            font-size: 1em;
+            color: #333;
+        }
+
+        .question ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        .question code {
+            background: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            .question {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tech Fest 2025: Web Development Challenge</h1>
+            <p>Round 2 - Hard Level Questions</p>
+        </header>
+
+        <div class="instructions">
+            <h3>Instructions</h3>
+            <p>
+                Congratulations on qualifying for Round 2! Solve the 2 questions below to showcase your advanced web development skills.
+                Submit your solutions as working code (HTML, CSS, JavaScript) via the provided submission link.
+                Time limit: 4 hours. Use standard web technologies and public APIs as specified. Ensure your solutions are functional and responsive.
+                Best of luck!
+            </p>
+        </div>
+
+        <div class="question">
+            <h3>Question 1: Real-Time Weather Dashboard</h3>
+            <p>
+                Build a weather dashboard using a public API (e.g., OpenWeatherMap). The dashboard should:
+            </p>
+            <ul>
+                <li>Allow users to input a city name to display current weather (temperature, humidity, description).</li>
+                <li>Show a 5-day forecast with date, temperature, and weather icon.</li>
+                <li>Save recent searches in a dropdown menu, stored in <code>localStorage</code> for persistence.</li>
+                <li>Handle errors (e.g., invalid city) with user-friendly messages.</li>
+                <li>Be styled to be visually appealing and responsive across devices.</li>
+            </ul>
+            <p><strong>Output</strong>: A functional weather dashboard with all features.</p>
+        </div>
+
+        <div class="question">
+            <h3>Question 2: Interactive Data Table with Filtering</h3>
+            <p>
+                Create a data table displaying 50 users (use mock data or a public API like JSONPlaceholder). Each row should show name, email, and phone number. Implement:
+            </p>
+            <ul>
+                <li>A search bar to filter users by name, updating in real-time as the user types.</li>
+                <li>Sort functionality for each column (ascending and descending).</li>
+                <li>Pagination to show 10 users per page.</li>
+                <li>A responsive and clean table design.</li>
+            </ul>
+            <p><strong>Output</strong>: A working table with filtering, sorting, and pagination.</p>
+        </div>
+
+        <footer>
+            <p>Tech Fest 2025 | Organized by [Your College Name] | All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
